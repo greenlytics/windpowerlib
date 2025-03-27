@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import pytest
-from pandas.util.testing import assert_series_equal
+from pandas.testing import assert_series_equal
 from numpy.testing import assert_allclose
 
 from windpowerlib.wind_speed import logarithmic_profile, hellman

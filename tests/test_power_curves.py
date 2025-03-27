@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import pytest
-from pandas.util.testing import assert_frame_equal
+from pandas.testing import assert_frame_equal
 
 from windpowerlib.power_curves import (smooth_power_curve,
                                        wake_losses_to_power_curve)

@@ -1,5 +1,5 @@
 import pandas as pd
-from pandas.util.testing import assert_series_equal
+from pandas.testing import assert_series_equal
 
 from windpowerlib.tools import (linear_interpolation_extrapolation,
                                 logarithmic_interpolation_extrapolation)

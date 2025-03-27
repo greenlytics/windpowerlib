@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from pandas.util.testing import assert_series_equal
+from pandas.testing import assert_series_equal
 
 import windpowerlib.wind_farm as wf
 import windpowerlib.wind_turbine as wt
